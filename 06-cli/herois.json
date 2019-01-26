@@ -1,1 +1,4 @@
-[{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"}]
+{
+  "0": { "id": 1, "nome": "Flash", "poder": "Speed" },
+  "objetoAtualizar": { "id": 2, "nome": "Batman", "poder": "Dinheiro" }
+}
