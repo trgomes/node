@@ -26,9 +26,14 @@ describe('Suite de manipulação de Herois', function () {
     it('deve cadastrar um heroi usando arquivos', async () => {
         const expected = DEFAULT_ITEM_CADASTRAR
         const result = await database.cadastrar(DEFAULT_ITEM_CADASTRAR)
-        const actual = await database.listar(DEFAULT_ITEM_CADASTRAR.id) 
-        console.log(actual)       
+        const actual = await database.listar(DEFAULT_ITEM_CADASTRAR.id)    
         deepEqual(actual, expected)
+    })
+
+    it('deve remover um heroi', async () => {
+        const expected = true
+        const result = await database.remover(DEFAULT_ITEM_CADASTRAR.id)
+        deepEqual(result, expected)
     })
     
 
